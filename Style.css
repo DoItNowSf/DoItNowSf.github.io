@@ -95,3 +95,11 @@ body{
 .slider input[type="radio"]:checked~img {
     opacity: 1;
 }
+.Tarjetas::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 1px solid rgba(100, 86, 86, 0.137);
+}
+.Tarjetas::-webkit-scrollbar-thumb{
+    background-color: rgba(100, 86, 86, 0.137);
+    border-radius: 5px;
+}
